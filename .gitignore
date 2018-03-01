@@ -5,3 +5,6 @@ db.json
 node_modules/ 
 public/ 
 .deploy*/
+archives/
+.deploy_git/
+2018/
