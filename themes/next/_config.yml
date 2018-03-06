@@ -27,8 +27,8 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: /images/favicon-16x16.ico
+  medium: /images/favicon-32x32.ico
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -58,9 +58,9 @@ footer:
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
@@ -133,6 +133,8 @@ social:
   Google: https://plus.google.com/yourname || google
   Twitter: https://twitter.com/yourname || twitter
   FB Page: https://www.facebook.com/yourname || facebook
+  SegmentFault: https://segmentfault.com/u/dumuchenglin222 || meh-o
+  掘金: https://juejin.im/user/582be2ae128fe100694a9f65 || spinner
   VK Group: https://vk.com/yourname || vk
   StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   YouTube: https://youtube.com/yourname || youtube
@@ -813,3 +815,6 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+# Fireworks
+fireworks: true
