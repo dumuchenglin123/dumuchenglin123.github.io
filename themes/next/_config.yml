@@ -45,10 +45,10 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
-  icon: user
+  icon: heart
 
   # If not defined, will be used `author` from Hexo main config.
   copyright:
@@ -296,7 +296,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -316,7 +316,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Roboto Slab
     size:
 
   # Font settings for posts.
@@ -330,7 +330,7 @@ font:
   logo:
     external: true
     family:
-    size:
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
@@ -717,7 +717,7 @@ canvas_sphere: false
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
   enable: true
-  size: 300
+  size: 200
   alpha: 0.6
   zIndex: -1
 
