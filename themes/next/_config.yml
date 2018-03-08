@@ -398,7 +398,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: 'MTAyMC8zNDY1Mi8xMTE4OQ=='
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -428,7 +428,7 @@ gitment:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis:
+jiathis: true
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
@@ -818,3 +818,7 @@ version: 5.1.4
 
 # Fireworks
 fireworks: true
+
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true
