@@ -92,3 +92,9 @@ deploy:
   type: git
   repo: git@github.com:dumuchenglin123/dumuchenglin123.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
