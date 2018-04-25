@@ -43,6 +43,9 @@
   {% set internal_script = url_for(theme.vendors._internal) + '/' + internal %}
   {% if name == 'canvas_ribbon' %}
     <script id="ribbon" type="text/javascript" size="{{ theme.canvas_ribbon.size }}" alpha="{{ theme.canvas_ribbon.alpha }}"  zIndex="{{theme.canvas_ribbon.zIndex }}" src="{{ theme.vendors[name] | default(internal_script) }}"></script>
+  {% endif %}
+  {% if name == 'canvas_nest' %}
+    <script id="ribbon" type="text/javascript" color="{{ theme.canvas_nest.color }}" count="{{ theme.canvas_nest.count }}" opacity="{{ theme.canvas_nest.opacity }}"  zIndex="{{theme.canvas_nest.zIndex }}" src="{{ theme.vendors[name] | default(internal_script) }}"></script>  
   {% else %}
     <script type="text/javascript" src="{{ theme.vendors[name] | default(internal_script) }}"></script>
   {% endif %}

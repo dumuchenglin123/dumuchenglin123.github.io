@@ -5,7 +5,7 @@
 # Site
 title: CL`s Blog
 subtitle:
-description:
+description: 努力，不为别的，就是让自己在未来有更多的选择权利
 author: CL
 language: zh-Hans
 timezone:
@@ -90,7 +90,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:dumuchenglin123/dumuchenglin123.github.io.git
+  repo: 
+    github: git@github.com:dumuchenglin123/dumuchenglin123.github.io.git
+    coding: git@git.coding.net:dumuchenglin/CLinBlog.git
   branch: master
 
 search:
